@@ -1,0 +1,6 @@
+{
+  "name": "ShaadiVows - Royal Indian Digital Invitations",
+  "description": "Premium Indian digital invitation platform for royal weddings, grand celebrations, festivals, and cultural events with AI invitation writing, music, animated cards, and RSVP tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

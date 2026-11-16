@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-vibes {
+    font-family: 'Great Vibes', cursive;
+  }
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .font-noto {
+    font-family: 'Noto Serif', serif;
+  }
+  .font-kalam {
+    font-family: 'Kalam', cursive;
+  }
+  .font-rozha {
+    font-family: 'Rozha One', serif;
+  }
+
+  /* Royal Blue Gradient Text Effect */
+  .gold-gradient-text {
+    background: linear-gradient(135deg, #E3F2FD 0%, #90CAF9 35%, #2196F3 70%, #90CAF9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Royal Blue & Light Accent Border */
+  .royal-gold-border {
+    border: 2px solid transparent;
+    background-image: linear-gradient(#0D47A1, #0D47A1), linear-gradient(135deg, #2196F3, #E3F2FD, #2196F3);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }
+
+  /* Blue Foil Border Gradient */
+  .gold-foil-border {
+    border: 1px solid #2196F3;
+    box-shadow: 0 0 15px rgba(33, 150, 243, 0.25);
+  }
+
+  /* Soft Light Blue Textured Canvas Background */
+  .indian-paper-bg {
+    background-color: #E3F2FD;
+    background-image: radial-gradient(#2196F3 0.75px, transparent 0.75px), radial-gradient(#0D47A1 0.75px, #E3F2FD 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+    background-opacity: 0.05;
+  }
+}
+
+/* Animations */
+@keyframes floatDiya {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulseGold {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(33, 150, 243, 0.4), 0 0 20px rgba(33, 150, 243, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(33, 150, 243, 0.8), 0 0 35px rgba(33, 150, 243, 0.4);
+  }
+}
+
+@keyframes petalFall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg) translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(105vh) rotate(360deg) translateX(80px);
+    opacity: 0;
+  }
+}
+
+.animate-float-diya {
+  animation: floatDiya 4s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 40s linear infinite;
+}
+
+.animate-pulse-gold {
+  animation: pulseGold 3s infinite;
+}
+
+/* Custom Blue Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D47A1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2196F3;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #90CAF9;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

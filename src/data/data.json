@@ -1,0 +1,154 @@
+{
+  "brand": {
+    "name": "ShaadiVows",
+    "tagline": "Royal Indian Digital Invitations & RSVP Studio",
+    "supportEmail": "namaste@shadivows.com",
+    "phone": "+91 98765 43210"
+  },
+  "hero": {
+    "badge": "|| Shree Ganeshay Namah ||",
+    "title": "Ranveer & Padmini",
+    "subtitle": "Together with their families, cordially invite you to celebrate their wedding union in royal splendour.",
+    "eventDate": "February 2, 2027",
+    "venue": "The City Palace Grounds, Udaipur",
+    "ctaText": "Explore Invitation & RSVP"
+  },
+  "photoGallery": {
+    "sectionTitle": "Royal Themes & Gallery"
+  },
+  "groomAndBride": {
+    "sectionTitle": "Groom & Bride",
+    "sectionSubtitle": "Two souls united by destiny and royal heritage",
+    "groom": {
+      "name": "Ranveer Singh Rathore",
+      "role": "Groom",
+      "parents": "Son of Mrs. Sunita & Mr. Rajesh Singh Rathore",
+      "description": "Heritage Architect & Royal Revivalist. Passionate about classical architecture, royal Rajputana history, and fine arts.",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600",
+      "instagram": "#"
+    },
+    "bride": {
+      "name": "Padmini Kumari",
+      "role": "Bride",
+      "parents": "Daughter of Mrs. Meenakshi & Mr. Vikramaditya Roy",
+      "description": "Classical Vocalist & Textile Designer. Lover of traditional weaves, royal Mewar heritage, and acoustic melodies.",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600",
+      "instagram": "#"
+    }
+  },
+  "scratchToReveal": {
+    "sectionTitle": "Scratch to Reveal",
+    "sectionSubtitle": "Scratch the card below to reveal the secret wedding blessing & surprise venue detail!",
+    "coverMessage": "Scratch Here to Reveal Secret Blessing",
+    "secretHeading": "Secret Wedding Invitation Blessing",
+    "groomName": "Ranveer Singh Rathore",
+    "brideName": "Padmini Kumari",
+    "dateStr": "Wednesday, 2nd February 2027 at 09:49 PM",
+    "venueStr": "The City Palace Grounds, Udaipur",
+    "surpriseNote": "Special Royal Gala Dinner & Shehnai Night follows immediately after Phere!"
+  },
+  "invitationCards": {
+    "sectionTitle": "Wedding Invitation Card",
+    "sectionSubtitle": "Elegant digital invitation styled with classical motifs and royal heritage.",
+    "lavender": {
+      "groomName": "Ranveer",
+      "brideName": "Padmini",
+      "monthStr": "FEBRUARY",
+      "dayName": "WEDNESDAY",
+      "dayNum": "02",
+      "timeStr": "AT 09:49 PM",
+      "yearStr": "2027",
+      "venueName": "The City Palace Grounds",
+      "venueAddress": "Lake Pichola, Udaipur, Rajasthan 313001"
+    },
+    "traditional": {
+      "familyHeading": "Together with their Families !",
+      "invitationTitle": "Rathore's Royal Wedding Invitation",
+      "groomName": "Ranveer",
+      "brideName": "Padmini",
+      "dateStr": "On Wednesday, 2nd February 2027",
+      "timeStr": "09:49 pm",
+      "venueLine1": "The City Palace Grounds,",
+      "venueLine2": "Udaipur, Rajasthan",
+      "inviteeTitle": ":: Invitee ::",
+      "inviteeNames": "Rathore & Singh Families",
+      "cardNumber": "1160"
+    }
+  },
+  "countdown": {
+    "sectionTitle": "Counting Down to the Big Day",
+    "coupleNames": "Ranveer & Padmini",
+    "targetDate": "2027-02-02T21:49:00",
+    "locationStr": "The City Palace Grounds, Udaipur, Rajasthan",
+    "quote": "In every wedding vow lies a promise of eternal togetherness."
+  },
+  "weddingEvents": [
+    {
+      "id": "haldi",
+      "title": "Haldi Ceremony",
+      "subtitle": "The Auspicious Turmeric Ritual",
+      "date": "Feb 01, 2027",
+      "time": "10:00 AM - 01:00 PM",
+      "venue": "Manek Chowk Courtyard, City Palace",
+      "description": "A vibrant morning filled with turmeric paste, marigold blooms, yellow attire, and joyous dhol rhythms.",
+      "dressCode": "Yellow / Sunshine Traditional",
+      "icon": "Sun",
+      "imageUrl": "/src/assets/haldi_ceremony.jpg"
+    },
+    {
+      "id": "mehendi",
+      "title": "Mehendi & Sangeet",
+      "subtitle": "Henna Designs & Musical Evening",
+      "date": "Feb 01, 2027",
+      "time": "05:00 PM - 11:00 PM",
+      "venue": "Zenana Mahal Gardens",
+      "description": "Henna artists, folk dance performances, live acoustic band, and lavish Rajasthani street food stalls.",
+      "dressCode": "Indo-Western / Royal Floral",
+      "icon": "Music",
+      "imageUrl": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800"
+    },
+    {
+      "id": "wedding",
+      "title": "Shubh Vivah (Wedding)",
+      "subtitle": "Sacred Pheras & Baraat Arrival",
+      "date": "Feb 02, 2027",
+      "time": "07:00 PM Onwards",
+      "venue": "City Palace Grand Pavilion, Udaipur",
+      "description": "Royal Baraat procession on decorated horses & elephants, followed by Vedic marriage rituals and Phere.",
+      "dressCode": "Royal Velvet & Silk Traditional Ethnic",
+      "icon": "Crown",
+      "imageUrl": "/src/assets/saadi.png"
+    },
+    {
+      "id": "reception",
+      "title": "Royal Reception",
+      "subtitle": "Grand Gala Dinner & Celebrations",
+      "date": "Feb 03, 2027",
+      "time": "08:00 PM Onwards",
+      "venue": "Jagmandir Island Palace",
+      "description": "An enchanting lakeside evening with live symphony orchestra, royal dining, and fireworks across Lake Pichola.",
+      "dressCode": "Black Tie / Tuxedo / Designer Lehenga",
+      "icon": "Sparkles",
+      "imageUrl": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800"
+    }
+  ],
+  "venueLocation": {
+    "sectionTitle": "Venue & Location",
+    "venueName": "The City Palace Grounds",
+    "address": "City Palace Complex, Lake Pichola, Udaipur, Rajasthan 313001",
+    "googleMapsUrl": "https://maps.google.com/?q=City+Palace+Udaipur",
+    "mapEmbedIframeUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.291775191541!2d73.6811!3d24.5764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56230b77e8d%3A0xe744e8ff74f07e5f!2sCity%20Palace%2C%20Udaipur!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+    "airport": "Maharana Pratap Airport (UDR) - 22 km",
+    "railway": "Udaipur City Railway Station - 3.5 km",
+    "parking": "Valet Parking Available at Badi Pol Entrance"
+  },
+  "footer": {
+    "copyright": "© 2027 Ranveer & Padmini Wedding. Designed with love.",
+    "links": [
+      { "label": "Invitation Card", "href": "#invitation" },
+      { "label": "Events Schedule", "href": "#events" },
+      { "label": "Venue Map", "href": "#venue" },
+      { "label": "RSVP", "href": "#rsvp" }
+    ]
+  }
+}
